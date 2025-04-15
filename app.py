@@ -20,7 +20,7 @@ except ImportError as e:
     st.stop()
 
 # --- Configuración de la Página e Inicialización del Estado ---
-st.set_page_config(page_title="Calculadora Regresión Lineal", page_icon="📈", layout="wide")
+st.set_page_config(page_title="Calculadora Regresión Lineal", page_icon="https://cdn-icons-png.flaticon.com/128/1998/1998646.png", layout="wide")
 
 default_session_state = {
     'calculado': False, 'df': None, 'modelo': None, 'pendiente': None,
